@@ -20,6 +20,8 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
+            'test_node = robot_controller_sept_03.my_first_node:main',
+            'draw_circle = robot_controller_sept_03.draw_circle:main'
         ],
     },
 )
